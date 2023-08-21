@@ -280,6 +280,7 @@ body .modal{
     margin-top: 120px;
     font-size: 30px;
     text-decoration: none;
+    position: absolute;
 }
 
 .campo1 input{
@@ -295,6 +296,8 @@ body .modal{
     margin-top: 230px;
     font-size: 30px;
     text-decoration: none;
+    position: absolute;
+    text-align: center;
 }
 
 .campo2 input{
@@ -361,9 +364,9 @@ body .modal{
     position: absolute;
 }
 
-@media (min-width: 500px){
-    .modal{
-        text-align: left;
+@media (max-width: 2000px){
+    .modal .campo1 label{ 
+        color: #000;
     }
 }
 .listado-gastos {
