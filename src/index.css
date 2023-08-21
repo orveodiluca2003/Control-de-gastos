@@ -365,8 +365,10 @@ body .modal{
 }
 
 @media (max-width: 2000px){
-    .modal .campo1 label{ 
-        color: #000;
+    .modal label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 .listado-gastos {
